@@ -9,10 +9,10 @@
                 <Frame CornerRadius="120" Padding="0" BackgroundColor="#303030"
            IsClippedToBounds="True" HeightRequest="250" Margin="50, 0">
                     <Image Source="https://cdn140.picsart.com/318675834007211.png" HorizontalOptions="Center" HeightRequest="300" WidthRequest="300" />
-                    </Frame>
+                </Frame>
             </StackLayout>
-            
-            <StackLayout Margin="30">    
+
+            <StackLayout Margin="30">
                 <Entry x:Name="ELogin" BackgroundColor="Gray"
                     Text="{Binding UserLogin}"
                     Placeholder="Login"
@@ -26,7 +26,7 @@
                     Background="gray"
                     HeightRequest="55" 
                     HorizontalTextAlignment="Center"
-                    TextColor="White"/> 
+                    TextColor="White"/>
                 <FlexLayout Direction="Row" JustifyContent="SpaceBetween">
                     <Button x:Name="BReg" Text="Зарегистроваться" 
                         HeightRequest="55" WidthRequest="140" Clicked="BReg_Clicked"/>
