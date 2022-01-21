@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutApp.ProjectInfoTwo"
+            Title="Проект 2">
+    <ContentPage Title="О Проекте">
+        <ScrollView>
+            <FlexLayout  Direction="Column" >
+                <Label Text="ОПИСАНИЕ ПРОЕКТА 2:" TextColor="White" HorizontalTextAlignment="Center" Margin="0, 20, 0, 0"/>
+                <Label Text="Lorem Ipsum is simply dummy text
+                       of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard 
+                       dummy text ever since the 1500s, when an unknown 
+                       printer took a galley of type and scrambled it to 
+                       make a type specimen book." TextColor="White" TextType="Html" 
+                 HorizontalTextAlignment="Center" Margin="20, 30" FontSize="Body"/>
+
+                <Label Text="Lorem Ipsum is simply dummy text
+                       of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard 
+                       dummy text ever since the 1500s, when an unknown 
+                       printer took a galley of type and scrambled it to 
+                       make a type specimen book." TextColor="White" TextType="Html" 
+                 HorizontalTextAlignment="Center" Margin="20, 0" FontSize="Body"/>
+
+                <Label Text="Lorem Ipsum is simply dummy text
+                       of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard 
+                       dummy text ever since the 1500s, when an unknown 
+                       printer took a galley of type and scrambled it to 
+                       make a type specimen book." TextColor="White" TextType="Html" 
+                 HorizontalTextAlignment="Center" Margin="20, 30" FontSize="Body"/>
+
+                <Label Text="Lorem Ipsum is simply dummy text
+                       of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard 
+                       dummy text ever since the 1500s, when an unknown 
+                       printer took a galley of type and scrambled it to 
+                       make a type specimen book." TextColor="White" TextType="Html" 
+                 HorizontalTextAlignment="Center" Margin="20, 0" FontSize="Body"/>
+
+                <Label Text="Lorem Ipsum is simply dummy text
+                       of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard 
+                       dummy text ever since the 1500s, when an unknown 
+                       printer took a galley of type and scrambled it to 
+                       make a type specimen book." TextColor="White" TextType="Html" 
+                 HorizontalTextAlignment="Center" Margin="20, 30" FontSize="Body"/>
+                <Label Text="Lorem Ipsum is simply dummy text
+                       of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard 
+                       dummy text ever since the 1500s, when an unknown 
+                       printer took a galley of type and scrambled it to 
+                       make a type specimen book." TextColor="White" TextType="Html" 
+                 HorizontalTextAlignment="Center" Margin="20, 0" FontSize="Body"/>
+
+            </FlexLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+    <ContentPage Title="Картинки">
+        
+    </ContentPage>
+
+
+    <ContentPage Title="Контакты">
+        <ScrollView>
+            <FlexLayout  Direction="Column" >
+                <Entry x:Name="ELogin" BackgroundColor="Gray"
+                Text="{Binding UserLogin}"
+                Placeholder="Email"
+                TextColor="White" 
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center" Margin="30, 70, 30, 0"/>
+
+                <Entry x:Name="EMail" 
+                Text="{Binding UserEmail}"
+                Placeholder="Login"
+                IsPassword="True" 
+                Background="gray"
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center"
+                TextColor="White" Margin="30, 50, 30, 0"/>
+                <Entry x:Name="EPassword" 
+               
+                Placeholder="Number"
+                 Text="{Binding UserNumber}"
+                IsPassword="True" 
+                Background="gray"
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center"
+                TextColor="White" Margin="30, 50, 30, 0"/>
+                <Entry x:Name="EPasswordReturn" 
+                
+                Placeholder="Address"
+                Text="{Binding UserAddress}"
+                IsPassword="True" 
+                Background="gray"
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center"
+                TextColor="White" Margin="30, 50, 30, 0"/>
+            </FlexLayout>
+        </ScrollView>
+    </ContentPage>
+
+</TabbedPage>
