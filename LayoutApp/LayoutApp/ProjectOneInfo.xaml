@@ -62,7 +62,51 @@
 
 
     <ContentPage Title="Картинки">
-        <Label Text="ФЕЛИКС НЕ НАУЧИЛ ВСТАВЛЯТЬ КАРТИНКИ((("/>
+        <ScrollView>
+            <FlexLayout  Direction="Row" Wrap="Wrap" JustifyContent="SpaceAround">
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </FlexLayout>
+        </ScrollView>
         
     </ContentPage>
     
